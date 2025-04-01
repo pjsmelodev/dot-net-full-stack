@@ -1,3 +1,10 @@
 .NET Core
 
 Subset (cross platform) da .NET Framework (Windows)
+
+COMANDOS .NET CLI:
+dotnet --version
+
+dotnet new list
+
+dotnet new console -n <nome>
