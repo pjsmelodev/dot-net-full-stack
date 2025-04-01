@@ -27,3 +27,6 @@ PRACTICE QUIZ:
 
 5. What are some features of .NET Core?
     .NET Core is open-source, cross-platform, and includes support for modern application development features like containerization and microservices
+
+.NET CLI
+dotnet <command> <argument> <option>
