@@ -8,3 +8,5 @@ dotnet --version
 dotnet new list
 
 dotnet new console -n <nome>
+
+dotnet build
