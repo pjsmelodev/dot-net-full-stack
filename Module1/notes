@@ -46,3 +46,49 @@ PRACTICE QUIZ:
 
 5. What is the purpose of the dotnet new command in .NET CLI?
     To create a new project or file based on a specific template
+
+GRADED QUIZ:
+1. What is .NET CLI?
+    A command-line interface used for developing, building, and managing .NET projects and applications
+
+2. Which of the following is not a .NET CLI command?
+    dotnet stop
+
+3. Which .NET CLI command is used to add a package reference to a project?  
+    dotnet add package
+
+4. Which of the following is not part of the .NET Core platform?
+    JavFX
+
+5. What is a .NET Core console application?
+    An applications that runs in the web browser
+
+6. What is the .NET CLI used for?
+    To build and run .NET applications
+
+7. Which .NET CLI command is used to generate XML documentation for a .NET project?  
+    dotnet build /p:GenerateDocumentation=true
+
+8. Which of the following is a language compiler in .NET Core?
+    Roslyn
+
+9. What is the command used to restore dependencies for a .NET Core project?
+    dotnet restore
+
+10. Which .NET CLI command is used to remove a package reference from a project?  
+    dotnet remove package
+
+11. Which .NET CLI command is used to list all the installed SDKs? 
+    dotnet --list-sdks
+
+12. Which .NET CLI command is used to create a new class library project?  
+    dotnet new classlib
+
+13. What is the .NET CLI command to build a .NET Core project?
+    dotnet build
+
+14. Which of the following is not a language compiler supported by .NET Core?
+    Java
+
+15. Which of the following is a component of the .NET Core platform that provides a set of APIs for building applications?
+    Both B and C (Core CLR and coreFX)
