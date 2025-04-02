@@ -30,3 +30,19 @@ PRACTICE QUIZ:
 
 .NET CLI
 dotnet <command> <argument> <option>
+
+PRACTICE QUIZ:
+1. What is the .NET CLI?
+    A command-line interface for working with .NET Core
+
+2. What command is used to create a new .NET Core console application using the .NET CLI?
+    dotnet new console
+
+3. What is the Core CLR?
+    A component of the .NET Core platform that provides the runtime environment for .NET Core applications
+
+4. What command is used to build a .NET Core application using the .NET CLI?
+    dotnet build
+
+5. What is the purpose of the dotnet new command in .NET CLI?
+    To create a new project or file based on a specific template
