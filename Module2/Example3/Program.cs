@@ -15,4 +15,14 @@ for (int i = names.Length - 1; i >= 0; i--)
     Console.WriteLine(names[i]);
 }
 
+Console.WriteLine();
+
+int acc = 0;
+
+while (acc < names.Length)
+{
+    Console.WriteLine(names[acc]);
+    acc++;
+}
+
 Console.ReadKey();
