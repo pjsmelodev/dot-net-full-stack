@@ -1,0 +1,6 @@
+VARIABLES:
+Local
+Instance (Non-Static)
+Static (Class)
+Constant
+ReadOnly
