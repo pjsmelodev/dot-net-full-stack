@@ -40,3 +40,10 @@ PRACTICE QUIZ:
 
 5. What is a variable in C#?
     A named memory location used to store a value that can be modified during program execution, and has a specific data type
+
+JUMP STATEMENTS:
+break -> termina um loop ou um switch
+continue -> salta para a iteração seguinte de um loop
+goto -> transfere o controle para um rótulo
+return -> termina a execução de um método e retorna um valor
+throw -> lança uma exceção
