@@ -25,3 +25,18 @@ Reference datatypes
         Classes
         Interfaces
 
+PRACTICE QUIZ:
+1. What is C#?
+    A programming language for developing applications on the .NET framework
+
+2. Which of the following statements is true about the readonly keyword in C#?
+    It allows for a variable to be assigned a value once and then cannot be changed
+
+3. How do you execute C# code?
+    By compiling the code into an executable file and running it
+
+4. What is Visual Studio?
+    An IDE for developing applications on the .NET framework
+
+5. What is a variable in C#?
+    A named memory location used to store a value that can be modified during program execution, and has a specific data type
