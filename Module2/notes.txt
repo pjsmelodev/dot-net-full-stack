@@ -4,3 +4,24 @@ Instance (Non-Static)
 Static (Class)
 Constant
 ReadOnly
+
+DATA TYPES:
+Value datatypes
+    Predefined datatypes
+        Integer
+        Boolean
+        Float
+    User defined datatypes
+        Enumerations
+        Sturctures
+
+Pointer Data Types
+
+Reference datatypes
+    Predefined datatypes
+        Objects
+        Strings
+    User defined datatypes
+        Classes
+        Interfaces
+
