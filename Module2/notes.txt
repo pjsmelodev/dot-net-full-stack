@@ -141,3 +141,19 @@ String Methods
     Insert()    ->  Inserts a substring at a specified index
     IndexOf()   ->  Returns the index of the first occurrence of a specified substring
 
+PRACTICE QUIZ:
+What is an array in C#?
+    A collection of values of the same data type, stored in contiguous memory locations
+
+What are the types of arrays in C#?
+    One-dimensional, multi-dimensional, and jagged arrays
+
+What is a string in C#?
+    A sequence of characters, stored as an array of characters in contiguous memory locations
+
+What is the difference between the Length and Count properties of a string?
+    Length is a property of the string class that returns the number of characters in the string, while Count is a property of collections that returns the number of elements in the collection
+ 
+What is a string method in C#?
+    A pre-defined function provided by the .NET framework that can be called on a string object to perform operations on the string, such as searching, replacing, or formatting
+
