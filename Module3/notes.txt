@@ -78,3 +78,17 @@ It is used to achieve loose coupling.
 It is used to achieve total abstraction.
 It is used to achieve component-based programming.
 It is used to achieve multiple inheritance and abstraction.
+
+STATIC CLASSES:
+Static classes are classes that cannot be instantiated and can only contain static members.
+Static classes are used to group related methods and properties together.
+Static classes are often used for utility or helper classes or group constants.
+Example:
+	class MathUtils {
+		static int add(int a, int b) {
+			return a + b;
+		}
+		static int subtract(int a, int b) {
+			return a - b;
+		}
+	}
