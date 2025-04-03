@@ -242,3 +242,69 @@ public Student(int id, string name)
 }
 
 Os valores do Default Constructor são os valores padrão, enquanto os valores do Parameterized Constructor são passados como argumentos ao criar o objeto.
+
+INHERITANCE:
+    A mechanism by which one class can inherit the properties and methods of another class
+    Allows for code reusability and the creation of a hierarchical relationship between classes
+
+Single Inheritance
+    A class can inherit from only one base class
+Exemplo:
+        class BaseClass
+        {
+            // Base class members
+        }
+        class DerivedClass : BaseClass
+        {
+            // Derived class members
+        }
+
+Multiple Inheritance
+    A class can inherit from multiple base classes
+    Not supported in C# directly, but can be achieved using interfaces
+    Exemplo:
+        interface IInterface1
+        {
+            // Interface members
+        }
+        interface IInterface2
+        {
+            // Interface members
+        }
+        class DerivedClass : IInterface1, IInterface2
+        {
+            // Derived class members
+        }
+
+Multilevel Inheritance
+    A class can inherit from a base class, which in turn can inherit from another base class
+    Exemplo:
+        class BaseClass
+        {
+            // Base class members
+        }
+        class IntermediateClass : BaseClass
+        {
+            // Intermediate class members
+        }
+        class DerivedClass : IntermediateClass
+        {
+            // Derived class members
+        }
+
+Hierarchical Inheritance
+    Multiple classes can inherit from a single base class
+    Exemplo:
+        class BaseClass
+        {
+            // Base class members
+        }
+        class DerivedClass1 : BaseClass
+        {
+            // Derived class 1 members
+        }
+        class DerivedClass2 : BaseClass
+        {
+            // Derived class 2 members
+        }
+
