@@ -227,3 +227,18 @@ CONSTRUTORES:
     Used to initialize the object's properties
     Can be overloaded to provide different ways of initializing an object
 
+Default Constructor
+public Student()
+{
+    studentID = 101;
+    studentName = "John Doe";
+}
+
+Parameterized Constructor
+public Student(int id, string name)
+{
+    studentID = id;
+    studentName = name;
+}
+
+Os valores do Default Constructor são os valores padrão, enquanto os valores do Parameterized Constructor são passados como argumentos ao criar o objeto.
