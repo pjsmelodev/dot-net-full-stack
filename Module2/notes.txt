@@ -128,4 +128,16 @@ Jagged Arrays
         myArray[1] = new int[3] { 3, 4, 5 };
         myArray[2] = new int[4] { 6, 7, 8, 9 };
 
+STRING:
+
+String Methods
+    Clone()     ->  Creates a copy of the string
+    CompareTo() ->  Compares the string to another string and returns an integer indicating their relative order
+    Contains()  ->  Checks if the string contains a specified substring
+    EndWith()   ->  Checks if the string ends with a specified substring
+    Equals()    ->  Compares the string to another string for equality
+    ToUpper()   ->  Converts the string to uppercase
+    ToLower()   ->  Converts the string to lowercase
+    Insert()    ->  Inserts a substring at a specified index
+    IndexOf()   ->  Returns the index of the first occurrence of a specified substring
 
