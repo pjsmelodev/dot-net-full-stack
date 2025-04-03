@@ -54,3 +54,21 @@ A method without a body, declared in an abstract class.
 Example:
 	abstract void draw();
 
+INTERFACES:
+All methods in an interface are abstract by default.
+An interface cannot contain instance variables.
+An interface can extend multiple interfaces.
+An interface can be implemented by any class, from any inheritance tree.
+Example:
+	interface Animal {
+		void eat();
+		void sleep();
+	}
+	class Dog implements Animal {
+		public void eat() {
+			System.out.println("Dog eats");
+		}
+		public void sleep() {
+			System.out.println("Dog sleeps");
+		}
+	}
