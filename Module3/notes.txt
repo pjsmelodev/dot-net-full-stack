@@ -1,0 +1,7 @@
+POLYMORPHISM:
+Polymorphism is the ability of different classes to be treated as instances of the same class through a common interface.
+
+Compiler vs Runtime Polymorphism:
+Compiler Polymorphism: Achieved through method overloading and operator overloading.
+
+Runtime Polymorphism: Achieved through method overriding.
