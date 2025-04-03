@@ -12,4 +12,6 @@ foreach (int mark in marks)
     Console.WriteLine(mark);
 }
 
+int[,] multiArray = new int[3, 4] { {1, 2, 3, 4 }, {1, 2, 3, 4 }, {1, 2, 3, 4 } };
+
 Console.ReadKey();
