@@ -34,3 +34,23 @@ Compiler Polymorphism: Achieved through method overloading and operator overload
 		}
 
 Runtime Polymorphism: Achieved through method overriding.
+
+ABSTRACTION:
+Abstraction is the concept of hiding the complex implementation details and showing only the essential features of the object.
+
+Abstract Class:
+Cannot be instanciated
+Contains abstract methods (without implementation) and concrete methods (with implementation).
+Example:
+	class Shape {
+		abstract void draw();
+		void display() {
+			System.out.println("Displaying shape");
+		}
+	}
+
+Abstract Method:
+A method without a body, declared in an abstract class.
+Example:
+	abstract void draw();
+
