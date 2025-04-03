@@ -72,3 +72,9 @@ Example:
 			System.out.println("Dog sleeps");
 		}
 	}
+
+Advantages of Interfaces:
+It is used to achieve loose coupling.
+It is used to achieve total abstraction.
+It is used to achieve component-based programming.
+It is used to achieve multiple inheritance and abstraction.
