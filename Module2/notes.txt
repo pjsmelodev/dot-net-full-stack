@@ -157,3 +157,20 @@ What is the difference between the Length and Count properties of a string?
 What is a string method in C#?
     A pre-defined function provided by the .NET framework that can be called on a string object to perform operations on the string, such as searching, replacing, or formatting
 
+OOP
+Classes
+    A blueprint for creating objects, containing properties and methods
+Obejcts
+    An instance of a class, created using the new keyword
+Encapsulation
+    The bundling of data and methods that operate on that data within a single unit (class)
+Abstraction
+    The concept of hiding the implementation details and showing only the essential features of an object
+Inheritance
+    The mechanism by which one class can inherit the properties and methods of another class
+Polymorphism
+    The ability of different classes to be treated as instances of the same class through a common interface
+Interfaces
+    A contract that defines a set of methods and properties that a class must implement, without providing the implementation details
+Abstract Classes
+    A class that cannot be instantiated and can contain abstract methods (methods without implementation) as well as concrete methods (methods with implementation)
