@@ -308,3 +308,77 @@ Hierarchical Inheritance
             // Derived class 2 members
         }
 
+Hybrid Inheritence
+    A combination of multiple inheritance and hierarchical inheritance
+    Not supported in C# directly, but can be achieved using interfaces
+    Exemplo:
+        interface IInterface1
+        {
+            // Interface members
+        }
+        interface IInterface2
+        {
+            // Interface members
+        }
+        class BaseClass
+        {
+            // Base class members
+        }
+        class DerivedClass1 : BaseClass, IInterface1
+        {
+            // Derived class 1 members
+        }
+        class DerivedClass2 : BaseClass, IInterface2
+        {
+            // Derived class 2 members
+        }
+    Não pode ser feito com classes, apenas com INTERFACES
+
+GRADED QUIZ:
+What is an access modifier in object-oriented programming?
+    A way to control the visibility of a class, method, or field
+
+What is a constructor in object-oriented programming?
+    A pecial method that is used to create an instance of a class and initialize its state
+
+What is inheritance in object-oriented programming?
+    The process of defining a new class based on an existing class
+
+What is a method in object-oriented programming?
+    A function that is associated with an object or a class and can be called to perform a specific task
+
+What is a structure in object-oriented programming?
+    A type of user-defined data type that is similar to a class, but with the key difference that it's members are public by default
+
+Which of the following is true about constructors in object-oriented programming?
+    A constructor is used to create objects and allocate memory for them
+
+What is the purpose of inheritance in object-oriented programming?
+    To create new classes deriving from existing classes
+
+Which of the following is an access modifier in object-oriented programming?
+    All of the above
+
+What is the difference between a method and a function in object-oriented programming?
+    A method is a function that is called on an object, while a function is not associated with an object
+
+What is the difference between private and protected access modifiers in object-oriented programming?
+    Private members can only be accessed within the class, while protected members can be accessed within the class and its derived classes
+
+What is a constructor in object-oriented programming?
+    A method that is used to create an object
+
+What is an abstract class in object-oriented programming?
+    A class that cannot be instantiated and can contain abstract methods (methods without implementation) as well as concrete methods (methods with implementation)
+
+What is polymorphism in object-oriented programming?
+    The ability of an object to take on many forms
+
+What is method overloading in object-oriented programming?
+    The process of defining multiple methods with the same name but different parameters in a class
+
+What is the purpose of an access modifier in object-oriented programming?
+    To control the visibility of a class, method, or field
+
+What is the difference between a static method and an instance method in object-oriented programming?
+    A static method belongs to the class itself and can be called without creating an instance of the class, while an instance method belongs to an object and requires an instance of the class to be called
