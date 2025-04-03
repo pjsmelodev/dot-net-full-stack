@@ -220,3 +220,10 @@ Static Indexer
     An indexer that belongs to the class itself rather than to any specific instance of the class
 Static Operator
     An operator that belongs to the class itself rather than to any specific instance of the class
+
+
+CONSTRUTORES:
+    Special methods that are called when an object is created
+    Used to initialize the object's properties
+    Can be overloaded to provide different ways of initializing an object
+
