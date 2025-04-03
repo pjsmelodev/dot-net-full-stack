@@ -174,3 +174,49 @@ Interfaces
     A contract that defines a set of methods and properties that a class must implement, without providing the implementation details
 Abstract Classes
     A class that cannot be instantiated and can contain abstract methods (methods without implementation) as well as concrete methods (methods with implementation)
+
+ACCESS MODIFIERS:
+Public
+    Accessible from any class
+Private
+    Accessible only within the class
+Internal
+    Accessible only within the same assembly
+Protected
+    Accessible within the class and its derived classes
+Protected Internal
+    Accessible within the same assembly and in derived classes
+Sealed
+    Prevents a class from being inherited
+Static
+    Belongs to the class itself rather than to any specific instance of the class
+Virtual
+    Allows a method to be overridden in a derived class
+Abstract
+    Declares a method that must be implemented in a derived class
+Override
+    Provides a new implementation for a method that is inherited from a base class
+New
+    Hides a member inherited from a base class
+Static
+    Belongs to the class itself rather than to any specific instance of the class
+Const
+    A constant value that cannot be changed after it is declared
+ReadOnly
+    A variable that can only be assigned a value once, either at declaration or in the constructor of the class
+Static Constructor
+    A constructor that is called once for the class, before any instances of the class are created
+Static Class
+    A class that cannot be instantiated and can only contain static members
+Static Method
+    A method that belongs to the class itself rather than to any specific instance of the class
+Static Property
+    A property that belongs to the class itself rather than to any specific instance of the class
+Static Field
+    A field that belongs to the class itself rather than to any specific instance of the class
+Static Event
+    An event that belongs to the class itself rather than to any specific instance of the class
+Static Indexer
+    An indexer that belongs to the class itself rather than to any specific instance of the class
+Static Operator
+    An operator that belongs to the class itself rather than to any specific instance of the class
