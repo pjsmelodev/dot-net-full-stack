@@ -109,3 +109,23 @@ PRACTICE QUIZ:
 20. Which of the following is not a jump statement in C#?
     print
 
+ARRAYS:
+
+One-Dimensional Arrays
+    Exemplo:
+        int [] age;
+        age = new int[5];
+
+Multi-Dimensional Arrays
+    Exemplo:
+        int [,] age = new int[5, 5];
+
+Jagged Arrays
+    An array of arrays, where each sub-array can have DIFFERENT LENGTHS
+    Exemplo:
+        int[][] myArray = new int[3][];
+        myArray[0] = new int[2] { 1, 2 };
+        myArray[1] = new int[3] { 3, 4, 5 };
+        myArray[2] = new int[4] { 6, 7, 8, 9 };
+
+
