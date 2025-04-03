@@ -4,4 +4,33 @@ Polymorphism is the ability of different classes to be treated as instances of t
 Compiler vs Runtime Polymorphism:
 Compiler Polymorphism: Achieved through method overloading and operator overloading.
 
+	Method-Overloading: Multiple methods with the same name but different parameters.
+	Example:
+		class MathOperations {
+			int add(int a, int b) {
+				return a + b;
+			}
+			double add(double a, double b) {
+				return a + b;
+			}
+		}
+	Operator-Overloading: Giving new meaning to existing operators for user-defined types.
+	Example:
+		class Complex {
+			int real, imag;
+			Complex operator+(Complex c) {
+				Complex temp;
+				temp.real = real + c.real;
+				temp.imag = imag + c.imag;
+				return temp;
+			}
+		}
+	Constructor Overloading: Multiple constructors with different parameters.
+	Example:
+		class Box {
+			int length, breadth, height;
+			Box(int l) { length = breadth = height = l; }
+			Box(int l, int b, int h) { length = l; breadth = b; height = h; }
+		}
+
 Runtime Polymorphism: Achieved through method overriding.
