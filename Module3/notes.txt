@@ -92,3 +92,16 @@ Example:
 			return a - b;
 		}
 	}
+
+EXTENTION METHODS:
+Extension methods allow you to add new methods to existing types without modifying the original type.
+Extension methods are defined as static methods in a static class, with the first parameter specifying the type to extend.
+The class name should be the first parameter name, preceded by the "this" keyword.
+Example:
+	static class StringExtensions {
+		public static int WordCount(this string str) {
+			return str.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).Length;
+		}
+	}
+}
+

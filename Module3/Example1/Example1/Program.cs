@@ -18,10 +18,17 @@
 
 // A class é static, não pode ser instanciada
 //Calculate calculate = new Calculate();
-Console.WriteLine("Increment: " + Calculate.Increment());
-Console.WriteLine("Increment: " + Calculate.Increment());
-Console.WriteLine("Increment: " + Calculate.Increment());
+//Console.WriteLine("Increment: " + Calculate.Increment());
+//Console.WriteLine("Increment: " + Calculate.Increment());
+//Console.WriteLine("Increment: " + Calculate.Increment());
 
-Console.WriteLine("Decrement: " + Calculate.Decrement());
+//Console.WriteLine("Decrement: " + Calculate.Decrement());
+
+/* Extension Methods: */
+int number = 100;
+
+bool result = number.IsGreaterThan(1000);
+
+Console.WriteLine(result);
 
 Console.ReadKey();
