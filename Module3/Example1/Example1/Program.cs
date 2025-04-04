@@ -25,10 +25,15 @@
 //Console.WriteLine("Decrement: " + Calculate.Decrement());
 
 /* Extension Methods: */
-int number = 100;
+//int number = 100;
 
-bool result = number.IsGreaterThan(1000);
+//bool result = number.IsGreaterThan(1000);
 
-Console.WriteLine(result);
+//Console.WriteLine(result);
+
+var employee = new Employee();
+Console.WriteLine(employee.EmpId);
+Console.WriteLine(employee.EmpName);
+employee.DisplayDetails();
 
 Console.ReadKey();

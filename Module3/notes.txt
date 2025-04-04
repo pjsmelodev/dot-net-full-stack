@@ -108,6 +108,7 @@ Example:
 PARTIAL CLASSES:
 Partial classes allow you to split the definition of a class, struct, or interface into multiple files.
 Partial classes are useful for organizing large classes or when multiple developers are working on the same class.
+It's always void to use partial classes for small classes or when the class is not expected to grow significantly.
 Partial classes are defined using the "partial" keyword in each file.
 Example:
 	// File1.cs
