@@ -105,3 +105,37 @@ Example:
 	}
 }
 
+PARTIAL CLASSES:
+Partial classes allow you to split the definition of a class, struct, or interface into multiple files.
+Partial classes are useful for organizing large classes or when multiple developers are working on the same class.
+Partial classes are defined using the "partial" keyword in each file.
+Example:
+	// File1.cs
+	public partial class MyClass {
+		public void Method1() {
+			Console.WriteLine("Method1");
+		}
+	}
+	// File2.cs
+	public partial class MyClass {
+		public void Method2() {
+			Console.WriteLine("Method2");
+		}
+	}
+// Usage
+	MyClass obj = new MyClass();
+	obj.Method1(); // Output: Method1
+	obj.Method2(); // Output: Method2
+}
+// File3.cs
+public partial class MyClass {
+	public void Method3() {
+		Console.WriteLine("Method3");
+	}
+}
+// Usage
+MyClass obj = new MyClass();
+obj.Method1(); // Output: Method1
+obj.Method2(); // Output: Method2
+obj.Method3(); // Output: Method3
+
