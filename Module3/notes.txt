@@ -156,3 +156,11 @@ Question 4 What is a static class in C#?
 Question 5 What is the purpose of the ref keyword in C#?   
 	To pass a parameter by reference, allowing the method to modify the original value.
 
+PROPERTIES:
+Properties are special methods that provide a flexible mechanism to read, write, or compute the value of a private field.
+
+Property Types:
+Read-Write Property: Allows both getting and setting the value.
+Read-Only Property: Allows only getting the value.
+Write-Only Property: Allows only setting the value.
+Auto-Implemented Property: Simplifies property declaration by automatically creating a backing field.
