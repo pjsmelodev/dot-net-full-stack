@@ -140,3 +140,19 @@ obj.Method1(); // Output: Method1
 obj.Method2(); // Output: Method2
 obj.Method3(); // Output: Method3
 
+PRACTICE QUIZ:
+Question 1 What is an abstract class in C#?
+	A class that cannot be instantiated and may contain abstract and non-abstract methods.
+
+Question 2 What is an interface in C#?
+	A contract that defines a set of methods and properties that implementing classes must provide.
+
+Question 3 What is the main difference between an interface and an abstract class in C#?
+	An interface cannot contain any implementation, while an abstract class can contain both abstract and non-abstract methods.
+
+Question 4 What is a static class in C#?
+	A class that cannot be instantiated and can only contain static members.
+
+Question 5 What is the purpose of the ref keyword in C#?   
+	To pass a parameter by reference, allowing the method to modify the original value.
+
