@@ -184,3 +184,13 @@ Enums are a special "class" that represents a group of constants (unchangeable/r
 Fixed set of related constants.
 Enums are used to define a variable that can hold a set of predefined constants.
 Enums are strongly typed, meaning they can only hold values defined in the enum.
+
+HANDLING EXCEPTIONS:
+Exception handling is a mechanism to handle runtime errors in a controlled manner.
+It allows the program to continue executing even when an error occurs.
+
+Keywords:
+try -> used to define a try block. This block holds the code that may throw an exception
+catch -> used to define a catch block. This block holds the code that handles the exception
+finally -> used to define a finally block. This block holds the code that will always execute, regardless of whether an exception occurred or not
+throw -> used to throw an exception manually
