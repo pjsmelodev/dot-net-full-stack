@@ -52,15 +52,19 @@
 //Console.WriteLine(user.Age);
 
 // Demonstrating Indexes
-StringIndexerType stringIndexer = new StringIndexerType();
-stringIndexer[0] = "String One";
-stringIndexer[1] = "String Two";
-stringIndexer[2] = "String Three";
-stringIndexer[3] = "String Four";
+//StringIndexerType stringIndexer = new StringIndexerType();
+//stringIndexer[0] = "String One";
+//stringIndexer[1] = "String Two";
+//stringIndexer[2] = "String Three";
+//stringIndexer[3] = "String Four";
 
-for (int i = 0; i < 4; i++)
-{
-    Console.WriteLine(stringIndexer[i]);
-}
+//for (int i = 0; i < 4; i++)
+//{
+//    Console.WriteLine(stringIndexer[i]);
+//}
+
+// Demonstrating Enunmerations
+EnumDemo enumDemo = new EnumDemo();
+enumDemo.Display();
 
 Console.ReadKey();

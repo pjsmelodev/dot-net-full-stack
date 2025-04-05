@@ -178,3 +178,9 @@ Example:
 		}
 	}
 }
+
+ENUMS:
+Enums are a special "class" that represents a group of constants (unchangeable/read-only variables).
+Fixed set of related constants.
+Enums are used to define a variable that can hold a set of predefined constants.
+Enums are strongly typed, meaning they can only hold values defined in the enum.
