@@ -194,3 +194,5 @@ try -> used to define a try block. This block holds the code that may throw an e
 catch -> used to define a catch block. This block holds the code that handles the exception
 finally -> used to define a finally block. This block holds the code that will always execute, regardless of whether an exception occurred or not
 throw -> used to throw an exception manually
+
+PRACTICE QUIZ:
