@@ -164,3 +164,17 @@ Read-Write Property: Allows both getting and setting the value.
 Read-Only Property: Allows only getting the value.
 Write-Only Property: Allows only setting the value.
 Auto-Implemented Property: Simplifies property declaration by automatically creating a backing field.
+
+INDEXERS:
+Indexers allow instances of a class or struct to be indexed like arrays.
+An indexer is defined using the this keyword and can have one or more parameters.
+Indexers can be used to provide array-like access to a collection of objects.
+Example:
+	class MyCollection {
+		private int[] arr = new int[10];
+		public int this[int index] {
+			get { return arr[index]; }
+			set { arr[index] = value; }
+		}
+	}
+}
