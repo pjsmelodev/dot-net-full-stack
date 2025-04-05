@@ -31,9 +31,24 @@
 
 //Console.WriteLine(result);
 
-var employee = new Employee();
-Console.WriteLine(employee.EmpId);
-Console.WriteLine(employee.EmpName);
-employee.DisplayDetails();
+//var employee = new Employee();
+//Console.WriteLine(employee.EmpId);
+//Console.WriteLine(employee.EmpName);
+//employee.DisplayDetails();
+
+// Demonstrating Properties
+User user = new User();
+user.Name = "King Kochhar";
+user.Age = 34;
+
+/*
+ * Vai gerar exception
+user.Age = 14;
+*/
+
+Console.WriteLine(user.Name);
+//user.CompanyName = "ABC";
+Console.WriteLine(user.CompanyName);
+Console.WriteLine(user.Age);
 
 Console.ReadKey();
