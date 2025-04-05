@@ -64,7 +64,13 @@
 //}
 
 // Demonstrating Enunmerations
-EnumDemo enumDemo = new EnumDemo();
-enumDemo.Display();
+//EnumDemo enumDemo = new EnumDemo();
+//enumDemo.Display();
+
+Calculation calculation = new Calculation();
+//calculation.Calculate(100, 20);
+calculation.Calculate(100, 0);
+
+calculation.CalculateAnother();
 
 Console.ReadKey();
