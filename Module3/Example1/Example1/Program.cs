@@ -37,18 +37,30 @@
 //employee.DisplayDetails();
 
 // Demonstrating Properties
-User user = new User();
-user.Name = "King Kochhar";
-user.Age = 34;
+//User user = new User();
+//user.Name = "King Kochhar";
+//user.Age = 34;
 
-/*
- * Vai gerar exception
-user.Age = 14;
-*/
+///*
+// * Vai gerar exception
+//user.Age = 14;
+//*/
 
-Console.WriteLine(user.Name);
-//user.CompanyName = "ABC";
-Console.WriteLine(user.CompanyName);
-Console.WriteLine(user.Age);
+//Console.WriteLine(user.Name);
+////user.CompanyName = "ABC";
+//Console.WriteLine(user.CompanyName);
+//Console.WriteLine(user.Age);
+
+// Demonstrating Indexes
+StringIndexerType stringIndexer = new StringIndexerType();
+stringIndexer[0] = "String One";
+stringIndexer[1] = "String Two";
+stringIndexer[2] = "String Three";
+stringIndexer[3] = "String Four";
+
+for (int i = 0; i < 4; i++)
+{
+    Console.WriteLine(stringIndexer[i]);
+}
 
 Console.ReadKey();
