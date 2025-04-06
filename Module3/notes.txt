@@ -196,3 +196,11 @@ finally -> used to define a finally block. This block holds the code that will a
 throw -> used to throw an exception manually
 
 PRACTICE QUIZ:
+What is the purpose of an exception in C#?
+	To handle errors on unexpected situations that occur during program execution.
+
+What is a property in C#?
+	A member of a class that provides a flexible mechanism to read, write, or compute the value of a private field.
+
+What is an indexer in C#?
+	A class that provides a convenient way to encapsulate an array of values (or collection) and access them using an index.
