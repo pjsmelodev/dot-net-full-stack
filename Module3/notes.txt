@@ -286,3 +286,52 @@ Lambda expressions can be used to create delegates or expression tree types.
 EXPRESSION TREES:
 Expression trees are a data structure that represents code in a tree-like format.
 Expression trees can be used to represent lambda expressions and LINQ queries.
+
+GRADED QUIZ:
+What is an extension method in C#?
+	A method that extends the funcionality of an existing class
+
+What is an anonymous type in C#?
+	A type that is defined on the fly, without an explicit class definition
+
+In C#, what is the difference between the "async" and "await" keywords?   
+	"Async" is used to declare a method that returns a Task or Task<T>, while "await" is used to suspend the execution of an async method until the awaited task is complete. 
+
+What is the purpose of an anonymous type in C#?
+	To define a new class with a specific set of properties without explicitly defining a class.
+
+What is the purpose of the yield keyword in C#?  
+	To create an interator block, enabling deferred execution of a sequence of values
+
+What is the primary purpose of using the using statement in C#? 
+	To manage resources by ensuring that the Disposable object is disposed of properly when it goes out of scope.
+
+What does the => operator represent in C#?    
+	A lambda expression, which is used to define an anonymous method or a function in a concise way.
+
+What is a delegate in C#?
+	A type-safe function pointer that can encapsulate a method with a specific signature.
+
+What is an anonymous method in C#?
+	A method with no name
+
+What is the purpose of an expression tree in C#?
+	To represent a compiled method as a tree of nodes
+
+What is the purpose of the "var" keyword in C#?
+	To allow developers to declare variables without specifyinh their types explicitly
+
+What is the purpose of an event in C#?
+	To provide a mechanism for one object to notify other objects when an event occurs
+
+What is a lambda expression in C#?
+	A way to define an anonymous method using a concise syntax
+
+What is an expression tree in C#?
+	A data structure that represents code in a tree-like format, allowing for dynamic code generation and manipulation.
+
+What is the purpose of the "nameof" operator in C#?  
+	To obtain the name of a variable, type, or member as a string at compile time
+
+What is an expression tree in C#?
+	A data structure that represents code in a tree-like format, allowing for dynamic code generation and manipulation.
