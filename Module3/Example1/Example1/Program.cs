@@ -133,14 +133,16 @@
 //Console.WriteLine("Multiplication: " + DelegateExample.getNumber());
 
 // The Subscriber Model
-EventsExample events = new EventsExample();
-events.event_OddNumber += new EventsExample.delegate_OddNumber(EventMessage);
-events.Addition();
-Console.WriteLine("Event Executed: Addition");
+//EventsExample events = new EventsExample();
+//events.event_OddNumber += new EventsExample.delegate_OddNumber(EventMessage);
+//events.Addition();
+//Console.WriteLine("Event Executed: Addition");
 
-static void EventMessage()
-{
-    Console.WriteLine("Event Executed: Odd Number");
-}
+//static void EventMessage()
+//{
+//    Console.WriteLine("Event Executed: Odd Number");
+//}
+
+AnonymousExample.InvokeMethod();
 
 Console.ReadKey();
