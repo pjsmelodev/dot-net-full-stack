@@ -253,3 +253,22 @@ LINQ queries can be used to perform paging operations on collections.
 LINQ queries can be used to perform aggregation operations on collections.
 LINQ queries can be used to perform element operations on collections.
 
+DELEGATES:
+Delegates are type-safe function pointers that can be used to encapsulate methods with a specific signature.
+Delegates can be used to pass methods as parameters to other methods.
+Delegates can be used to define callback methods that are called when an event occurs.
+Delegates can be used to define multicast delegates that can call multiple methods in a single invocation.
+Delegates can be used to define anonymous methods and lambda expressions.
+Delegates can be used to define generic delegates that can work with any type.
+Delegates can be used to define asynchronous methods that can run in the background.
+Delegates can be used to define events that can be subscribed to by multiple listeners.
+Delegates can be used to define custom event arguments that can be passed to event handlers.
+Delegates can be used to define custom event handlers that can be used to handle events.
+Delegates can be used to define custom event sources that can raise events.
+
+SINGLE-CAST DELEGATES:
+Single-cast delegates can point to a single method.
+
+MULTICAST DELEGATES:
+Point to multiple methods.
+When invoked, they call each method in the invocation list in the order they were added.
