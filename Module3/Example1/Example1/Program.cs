@@ -82,6 +82,24 @@ var obj = new
     {
         streetName = "Civil Lines",
         city = "Delhi"
+    },
+    projects = new[]
+    {
+        new 
+        {
+            projectName = "ECommerce",
+            projectDuration = "40 Hours"
+        },
+        new
+        {
+            projectName = "Admin Portal",
+            projectDuration = "25 Hours"
+        },
+        new
+        {
+            projectName = "Accounting",
+            projectDuration = "30 Hours"
+        }
     }
 };
 
@@ -91,5 +109,8 @@ Console.WriteLine(obj.salary);
 Console.WriteLine(obj.address);
 Console.WriteLine(obj.address.streetName);
 Console.WriteLine(obj.address.city);
+Console.WriteLine(obj.projects[0].projectName + " " + obj.projects[0].projectDuration);
+Console.WriteLine(obj.projects[1].projectName + " " + obj.projects[1].projectDuration);
+Console.WriteLine(obj.projects[2].projectName + " " + obj.projects[2].projectDuration);
 
 Console.ReadKey();
