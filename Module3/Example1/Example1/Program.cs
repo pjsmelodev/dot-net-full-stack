@@ -67,10 +67,28 @@
 //EnumDemo enumDemo = new EnumDemo();
 //enumDemo.Display();
 
-Calculation calculation = new Calculation();
-//calculation.Calculate(100, 20);
-calculation.Calculate(100, 0);
+//Calculation calculation = new Calculation();
+////calculation.Calculate(100, 20);
+//calculation.Calculate(100, 0);
 
-calculation.CalculateAnother();
+//calculation.CalculateAnother();
+
+var obj = new
+{
+    firstName = "King",
+    lastName = "Kochhar",
+    salary = 12000,
+    address = new
+    {
+        streetName = "Civil Lines",
+        city = "Delhi"
+    }
+};
+
+Console.WriteLine(obj.firstName);
+Console.WriteLine(obj.lastName);
+Console.WriteLine(obj.salary);
+Console.WriteLine(obj.address.streetName);
+Console.WriteLine(obj.address.city);
 
 Console.ReadKey();
