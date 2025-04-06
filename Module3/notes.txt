@@ -278,3 +278,7 @@ Events are a way to provide notifications to subscribers when something happens.
 Subsect of delegates.
 Events are used to implement the observer pattern.
 Events are declared using the event keyword and can be raised using the += and -= operators.
+
+LAMBDA EXPRESSIONS:
+Lambda expressions are a concise way to represent anonymous methods using a special syntax.
+Lambda expressions can be used to create delegates or expression tree types.
