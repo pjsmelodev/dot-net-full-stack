@@ -122,14 +122,25 @@
 //c2(200);
 //Console.WriteLine("Multiplication: " + DelegateExample.getNumber());
 
-CalculateDelegate c1 = new CalculateDelegate(DelegateExample.Addition);
-c1(100);
-Console.WriteLine("Addition: " + DelegateExample.getNumber());
-c1 += new CalculateDelegate(DelegateExample.Addition);
-c1 += new CalculateDelegate(DelegateExample.Multiplication);
-//c1 -= new CalculateDelegate(DelegateExample.Multiplication);
+//CalculateDelegate c1 = new CalculateDelegate(DelegateExample.Addition);
+//c1(100);
+//Console.WriteLine("Addition: " + DelegateExample.getNumber());
+//c1 += new CalculateDelegate(DelegateExample.Addition);
+//c1 += new CalculateDelegate(DelegateExample.Multiplication);
+////c1 -= new CalculateDelegate(DelegateExample.Multiplication);
 
-c1(100);
-Console.WriteLine("Multiplication: " + DelegateExample.getNumber());
+//c1(100);
+//Console.WriteLine("Multiplication: " + DelegateExample.getNumber());
+
+// The Subscriber Model
+EventsExample events = new EventsExample();
+events.event_OddNumber += new EventsExample.delegate_OddNumber(EventMessage);
+events.Addition();
+Console.WriteLine("Event Executed: Addition");
+
+static void EventMessage()
+{
+    Console.WriteLine("Event Executed: Odd Number");
+}
 
 Console.ReadKey();

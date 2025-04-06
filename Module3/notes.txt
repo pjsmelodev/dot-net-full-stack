@@ -272,3 +272,9 @@ Single-cast delegates can point to a single method.
 MULTICAST DELEGATES:
 Point to multiple methods.
 When invoked, they call each method in the invocation list in the order they were added.
+
+EVENTS:
+Events are a way to provide notifications to subscribers when something happens.
+Subsect of delegates.
+Events are used to implement the observer pattern.
+Events are declared using the event keyword and can be raised using the += and -= operators.
