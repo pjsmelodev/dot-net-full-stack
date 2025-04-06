@@ -204,3 +204,52 @@ What is a property in C#?
 
 What is an indexer in C#?
 	A class that provides a convenient way to encapsulate an array of values (or collection) and access them using an index.
+
+ANNONYMOUS METHODS:
+Anonymous methods are methods without a name that can be defined inline.
+Anonymous methods are often used with delegates to provide a quick way to define a method without creating a separate named method.
+Anonymous methods can access variables from the enclosing scope.
+Example:
+	// Define a delegate
+	delegate void MyDelegate(string message);
+	
+	// Use an anonymous method
+	MyDelegate del = delegate(string msg) {
+		Console.WriteLine(msg);
+	};
+	del("Hello, World!"); // Output: Hello, World!
+}
+
+LAMBDA EXPRESSIONS:
+Lambda expressions are a concise way to represent anonymous methods using a special syntax.
+Lambda expressions can be used to create delegates or expression tree types.
+Lambda expressions can take parameters and return values.
+Lambda expressions are often used with LINQ queries to filter, project, and sort data.
+Example:
+	// Define a delegate
+	delegate int MyDelegate(int x, int y);
+	
+	// Use a lambda expression
+	MyDelegate del = (x, y) => x + y;
+	int result = del(5, 10); // Output: 15
+}
+
+LINQ:
+LINQ (Language Integrated Query) is a set of features in C# that allows querying collections in a declarative manner.
+LINQ provides a consistent way to query various data sources, including arrays, collections, databases, and XML.
+LINQ queries can be written using query syntax or method syntax.
+LINQ queries are executed using deferred execution, meaning the query is not executed until the results are enumerated.
+LINQ provides a set of standard query operators that can be used to perform filtering, projection, sorting, and grouping operations on collections.
+LINQ queries can be composed and combined to create complex queries.
+LINQ queries can be executed on various data sources, including in-memory collections, databases, XML documents, and more.
+LINQ queries can be written using query syntax or method syntax.
+LINQ queries can be executed using deferred execution or immediate execution.
+LINQ queries can be used to perform filtering, projection, sorting, and grouping operations on collections.
+LINQ queries can be used to perform joins between different data sources.
+LINQ queries can be used to perform grouping and aggregation operations on collections.
+LINQ queries can be used to perform set operations, such as union, intersection, and except.
+LINQ queries can be used to perform ordering operations on collections.
+LINQ queries can be used to perform paging operations on collections.
+LINQ queries can be used to perform aggregation operations on collections.
+LINQ queries can be used to perform element operations on collections.
+
