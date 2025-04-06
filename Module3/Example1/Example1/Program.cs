@@ -88,6 +88,7 @@ var obj = new
 Console.WriteLine(obj.firstName);
 Console.WriteLine(obj.lastName);
 Console.WriteLine(obj.salary);
+Console.WriteLine(obj.address);
 Console.WriteLine(obj.address.streetName);
 Console.WriteLine(obj.address.city);
 
