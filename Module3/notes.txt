@@ -282,3 +282,7 @@ Events are declared using the event keyword and can be raised using the += and -
 LAMBDA EXPRESSIONS:
 Lambda expressions are a concise way to represent anonymous methods using a special syntax.
 Lambda expressions can be used to create delegates or expression tree types.
+
+EXPRESSION TREES:
+Expression trees are a data structure that represents code in a tree-like format.
+Expression trees can be used to represent lambda expressions and LINQ queries.

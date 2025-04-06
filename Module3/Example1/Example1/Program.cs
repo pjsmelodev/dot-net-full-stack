@@ -1,4 +1,5 @@
 ﻿using Example1;
+using System.Linq.Expressions;
 
 //SavingsAccount savingsAccount = new SavingsAccount();
 
@@ -146,13 +147,25 @@
 //AnonymousExample.InvokeMethod();
 
 // Expression Lambda:
-var numbers = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-var count = numbers.Count(n => n == 5);
-Console.WriteLine("Count: " + count);
+//var numbers = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+//var count = numbers.Count(n => n == 5);
+//Console.WriteLine("Count: " + count);
 
-// Statement Lambda:
-List<int> numbers2 = new List<int> { 2, 5, 6, 5, 1, 3, 5, 7 };
-var count2 = numbers2.Count(x => { return x == 5; });
-Console.WriteLine("Count: " + count2);
+//// Statement Lambda:
+//List<int> numbers2 = new List<int> { 2, 5, 6, 5, 1, 3, 5, 7 };
+//var count2 = numbers2.Count(x => { return x == 5; });
+//Console.WriteLine("Count: " + count2);
+
+// Expression Tree
+Func<string, string, string> stringJoins = (str1, str2) => string.Concat(str1, str2);
+
+Expression<Func<string, string, string>> stringJoinExpr = (str1, str2) => string.Concat(str1, str2);
+
+var fun = stringJoinExpr.Compile();
+var result = fun("Hello", "World");
+Console.WriteLine(result);
+
+result = stringJoinExpr.Compile()("Hello", "Everyone");
+Console.WriteLine(result);
 
 Console.ReadKey();
